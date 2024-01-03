@@ -104,7 +104,18 @@ function Header() {
           </ul>
         </div>
       </div>
-      <div style={{border: '1px solid',borderColor:"#2e2e2e"}} className="mx-52 "></div>
+      <div className="w-full flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1421" height="2" viewBox="0 0 1421 2" fill="none">
+          <path d="M-2 1H1420" stroke="url(#paint0_linear_9_185)" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="paint0_linear_9_185" x1="128" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+              <stop stop-color="white" stop-opacity="0"/>
+              <stop offset="0.489583" stop-color="white"/>
+              <stop offset="1" stop-color="white" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
     </nav>
   )
 }
