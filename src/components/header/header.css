@@ -25,3 +25,34 @@
     border: 1px solid #FF8933;
   }
   
+/* Jisan Added Start  */
+
+.create-btn:hover {
+    background: linear-gradient(180deg, #010101 0%, rgba(58.23, 58.23, 58.23, 0.98) 29%, black 54%, rgba(0, 0, 0, 0.60) 100%), linear-gradient(0deg, rgba(7.44, 3.12, 0, 0.63) 0%, rgba(7.44, 3.12, 0, 0.63) 100%);
+    border: 1px #F7B8A3 solid;
+} 
+
+.create-btn:hover p {
+    color: #F7B8A3 !important;
+}
+
+.create-btn:hover path {
+    fill: #F7B8A3 !important;
+}
+
+.gradient-btn-black:hover {
+    border: 1px #F7B8A3 solid;
+    background: linear-gradient(352deg, #F7B8A3 -68.2%, #E5044C -30.39%, #B20444 -17.27%, #84033D -3.54%, #5D0337 10.76%, #3C0332 25.36%, #24022E 40.43%, #12022B 56.1%, #07022A 72.82%, #040229 92.31%, #002E46 125.98%);
+    ;
+}
+
+.gradient-btn-black:hover path {
+    fill: #F7B8A3;
+}
+
+.searchbox:focus {
+    border: 1px solid #F7B8A3;
+    outline: none;
+}
+
+/* Jisan Added End */
