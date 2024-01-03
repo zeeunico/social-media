@@ -1,7 +1,7 @@
 import "./sidebar.css"
 function LeftSideBarIcons(){
     return(
-        <div className="hidden h-full w-24 md:flex flex-col items-center fixed overflow-auto">
+        <div className="hidden h-full w-24 md:flex flex-col items-center fixed overflow-auto sidebar-menu">
             <div className="my-4">
                 <button className="btn btn-circle bg-btn-black active-btn border-none text-white mx-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28" fill="none">
