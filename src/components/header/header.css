@@ -19,4 +19,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.notification-circle{
+    background: #24022E;
+    border: 1px solid #FF8933;
+  }
   
