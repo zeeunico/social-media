@@ -3,7 +3,7 @@ import "./youMayKnowCards.css"
 const YouMayKnowCard = (props) => {
     return (
         <>
-            <div className="card">
+            <div className="cardymk">
                 <div className="flex justify-center mt-2">
                     <img src="/imgaes/ymk.svg" alt="" />
                 </div>
