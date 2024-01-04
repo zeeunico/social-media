@@ -30,7 +30,7 @@
 .create-btn:hover {
     background: linear-gradient(180deg, #010101 0%, rgba(58.23, 58.23, 58.23, 0.98) 29%, black 54%, rgba(0, 0, 0, 0.60) 100%), linear-gradient(0deg, rgba(7.44, 3.12, 0, 0.63) 0%, rgba(7.44, 3.12, 0, 0.63) 100%);
     border: 1px #F7B8A3 solid;
-} 
+}
 
 .create-btn:hover p {
     color: #F7B8A3 !important;
