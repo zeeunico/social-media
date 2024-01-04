@@ -38,6 +38,10 @@ body,
   -moz-osx-font-smoothing: grayscale;
 }
 
+a:hover{
+  cursor: pointer;
+}
+
 /* Fonts */
 .font-orbitron{
   font-family: Orbitron;

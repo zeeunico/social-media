@@ -1,5 +1,5 @@
 // Jisan Is working
-import HorizontalDevider from "../sidebarComponents/horizontalDevider";
+import { HorizontalDividerWithFixedWidth } from "../common/silver-divider";
 import YouMayKnowCard from "../sidebarComponents/youMayKnowCards";
 import "./homeleftsidebar.css"
 const HomeLeftSideBar = () => {
@@ -167,21 +167,21 @@ const HomeLeftSideBar = () => {
                 
                 <p className="font-poppins tt my-2 mx-2">Trending</p>
 
-                <div className="flex flex-wrap my-1 mx-2">
+                <a className="flex flex-wrap my-1 mx-2">
                     <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M13.5523 7.1775L8.99977 2.625L4.44727 7.1775" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M9 15.3749V2.75244" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <span className="hashtag">#FienArtCo</span>
-                </div>
-                <HorizontalDevider />
-                <div className="flex flex-wrap my-1 mx-2">
+                </a>
+                <HorizontalDividerWithFixedWidth />
+                <a className="flex flex-wrap my-1 mx-2">
                     <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M13.5523 7.1775L8.99977 2.625L4.44727 7.1775" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M9 15.3749V2.75244" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <span className="hashtag">#HappyNewYear</span>
-                </div>
+                </a>
 
             </div>
 
@@ -198,7 +198,7 @@ const HomeLeftSideBar = () => {
                         </defs>
                     </svg>
                 </div>
-                <HorizontalDevider />
+                <HorizontalDividerWithFixedWidth />
                 <div className="mt-2">
                     <div className="flex flex-wrap justify-around my-2">
                         <YouMayKnowCard />
@@ -224,7 +224,6 @@ const HomeLeftSideBar = () => {
                         </defs>
                     </svg>
                 </div>
-                <HorizontalDevider />
             </div>
 
             <div className="my-16"></div>
