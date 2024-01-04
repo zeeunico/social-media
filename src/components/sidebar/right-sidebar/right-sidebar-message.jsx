@@ -1,7 +1,7 @@
 import "../sidebar.css";
 import { MessageUserCard } from "./Message-user-card";
 import "./right-sidebar-message.css"
-import {SilverDividerHorizontal,SilverDividerVertical} from "./silver-divider";
+import {SilverDividerHorizontal} from "../../common/silver-divider";
 
 function RightSideBarMessage(){
     return(
