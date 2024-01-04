@@ -162,9 +162,36 @@ const HomeLeftSideBar = () => {
                 
             </div>
 
-            <div className="profile-info card bg-base-100 shadow-xl card-bg-lblue mx-8 my-4 flex flex-col">
+            <div className="profile-info card bg-base-100 shadow-xl card-bg-lblue mx-8 my-4 flex flex-col p-2">
 
-                <p>Trending</p>
+                <p className="font-poppins tt mb-2">Trending</p>
+
+                <div className="flex flex-wrap my-1">
+                    <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M13.5523 7.1775L8.99977 2.625L4.44727 7.1775" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9 15.3749V2.75244" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span className="hashtag">#FienArtCo</span>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="196" height="2" viewBox="0 0 196 2" fill="none">
+                        <path d="M1 1L195 1" stroke="url(#paint0_linear_1_447)" stroke-width="0.4" stroke-linecap="round" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_447" x1="1" y1="0.5" x2="195" y2="0.5" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.00520833" stop-color="white" stop-opacity="0" />
+                                <stop offset="0.536458" stop-color="white" />
+                                <stop offset="1" stop-color="white" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div className="flex flex-wrap my-1">
+                    <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M13.5523 7.1775L8.99977 2.625L4.44727 7.1775" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9 15.3749V2.75244" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span className="hashtag">#HappyNewYear</span>
+                </div>
 
             </div>
         </div>

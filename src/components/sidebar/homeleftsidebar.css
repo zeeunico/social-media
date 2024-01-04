@@ -141,3 +141,14 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
+
+.hashtag {
+    color: #F7B8A3;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.tt {
+    font-weight: 500;
+    font-size: 1rem;
+}
