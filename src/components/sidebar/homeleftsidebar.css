@@ -20,7 +20,7 @@
 
 .profile-info {
     border-radius: 1.0625rem;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-image: linear-gradient(180deg, #9D8A8A 0%, #2D0606 100%);
    
     border-image-slice: 1;
