@@ -225,7 +225,6 @@ const HomeLeftSideBar = () => {
                     </svg>
                 </div>
             </div>
-
             <div className="my-16"></div>
         </div>
     );
