@@ -44,7 +44,7 @@ function Header() {
             <div className="flex mx-8">
 
               <button className="relative gradient-btn-black p-4" >
-                <div className="absolute right-0 top-0 rounded-full notification-circle">
+                <div className="absolute right-[-10px] top-[-10px] rounded-full notification-circle">
                   <span className="text-sm text-white p-1">62</span>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 22" fill="none">
@@ -53,8 +53,8 @@ function Header() {
               </button>
 
               <button className="relative gradient-btn-black mx-2 p-4">
-                <div className="absolute right-0 top-0 rounded-full notification-circle">
-                <span className="text-sm text-white p-1">12</span>
+                <div className="absolute right-[-10px] top-[-10px] rounded-full notification-circle">
+                <span className="text-sm text-white p-[0.35rem]">12</span>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 22 24" fill="none">
                 <path d="M8.47319 20.6735C9.0921 20.5466 12.8634 20.5466 13.4824 20.6735C14.0114 20.7919 14.5836 21.0687 14.5836 21.673C14.5528 22.2483 14.2046 22.7583 13.7235 23.0822C13.0997 23.5536 12.3676 23.8521 11.6022 23.9597C11.1789 24.0128 10.7631 24.014 10.3545 23.9597C9.58797 23.8521 8.85586 23.5536 8.23325 23.081C7.75091 22.7583 7.40269 22.2483 7.37193 21.673C7.37193 21.0687 7.94409 20.7919 8.47319 20.6735ZM11.0509 0C13.6262 0 16.2569 1.18442 17.8196 3.1496C18.8335 4.415 19.2986 5.67919 19.2986 7.64436V8.1556C19.2986 9.66271 19.7095 10.551 20.6139 11.5747C21.2993 12.3289 21.5183 13.297 21.5183 14.3472C21.5183 15.3963 21.1627 16.3922 20.4503 17.2007C19.5176 18.17 18.2022 18.7888 16.8598 18.8964C14.9145 19.0571 12.9679 19.1925 10.9955 19.1925C9.02184 19.1925 7.0765 19.1115 5.13116 18.8964C3.7875 18.7888 2.47215 18.17 1.5407 17.2007C0.828266 16.3922 0.471436 15.3963 0.471436 14.3472C0.471436 13.297 0.691686 12.3289 1.37582 11.5747C2.3085 10.551 2.6924 9.66271 2.6924 8.1556V7.64436C2.6924 5.62601 3.21165 4.30622 4.28091 3.01423C5.87066 1.13004 8.41892 0 10.9401 0H11.0509Z" fill="white"/>

@@ -43,7 +43,6 @@
 .gradient-btn-black:hover {
     border: 1px #F7B8A3 solid;
     background: linear-gradient(352deg, #F7B8A3 -68.2%, #E5044C -30.39%, #B20444 -17.27%, #84033D -3.54%, #5D0337 10.76%, #3C0332 25.36%, #24022E 40.43%, #12022B 56.1%, #07022A 72.82%, #040229 92.31%, #002E46 125.98%);
-    ;
 }
 
 .gradient-btn-black:hover path {
