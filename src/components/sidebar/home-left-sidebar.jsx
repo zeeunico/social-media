@@ -4,7 +4,7 @@ import "./homeleftsidebar.css"
 const HomeLeftSideBar = () => {
 
     return (
-        <div className="h-full md:ml-24 md:w-96 flex flex-col items-center md:fixed overflow-auto">
+        <div className="h-full md:ml-10 md:w-96 flex flex-col items-center md:fixed overflow-auto">
             <div className="profile-info card bg-base-100 shadow-xl card-bg-lblue mx-8 my-4">
                 <div className="flex flex-col relative">
                     <div className="card-bg-image" style={{ background: 'url("/imgaes/profile-background-img.png")', backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat'}}></div>
