@@ -225,6 +225,9 @@ const HomeLeftSideBar = () => {
                     </svg>
                 </div>
                 <HorizontalDevider />
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
 
             <div className="my-16"></div>
