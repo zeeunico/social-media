@@ -8,7 +8,7 @@
 }
 
 .sidebar-menu .btn:hover path,
-.active-btn path {
+.active-btn path, svg:hover path {
     stroke: #F7B8A3;
 }
 
