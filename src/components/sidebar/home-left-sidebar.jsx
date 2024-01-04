@@ -30,7 +30,7 @@ const HomeLeftSideBar = () => {
                         <p className="pt">@oblivion123</p>
                     </div>
                     <div>
-                        <div className="text-center relative mx-auto mt-4">
+                        <div className="text-center relative mt-4">
                             <svg className="absolute frc" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                                 <circle cx="15" cy="15" r="14.5" fill="url(#paint0_linear_1_682)" stroke="url(#paint1_linear_1_682)" />
                                 <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="0.75rem" font-family="Poppins" >
@@ -77,7 +77,7 @@ const HomeLeftSideBar = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <div className="birthday-card flex flex-col mt-1">
+                        <div className="birthday-card flex flex-col mt-2">
                             <div className="flex flex-wrap p-2">
                                 <svg className="gift-icon" xmlns="http://www.w3.org/2000/svg" width="10.99981rem" height="1.125rem" viewBox="0 0 0.99981rem 1.125rem" fill="none">
                                     <path d="M4.10719 10.744C4.87663 10.9102 5.63161 10.9283 6.35794 10.8028C6.8057 10.7225 7.16224 10.6081 7.47978 10.4402C7.51295 10.4217 7.54819 10.4028 7.58308 10.3818C7.73853 10.2909 7.87625 10.1836 7.99315 10.067L8.54912 11.0265C5.73403 12.5756 3.05421 13.2608 1.74901 12.8329C1.49647 12.2262 1.88676 11.3168 2.73514 10.3124C3.14969 10.4893 3.60357 10.6338 4.10719 10.744Z" fill="url(#paint0_linear_1_662)" />
